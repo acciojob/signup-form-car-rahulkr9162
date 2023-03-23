@@ -12,28 +12,28 @@
 </script>
 	<form method="">
 			<label for="name">Name*</label>
-			<input type="text" placeholder="Name" id="name">
+			<input type="text" placeholder="Name" id="name" required>
 		<label for="email">Email*</label>
-			<input type="email" placeholder="Email" id="email">
+			<input type="email" placeholder="Email" id="email" required>
 		<label for="gender_m">Male*</label>
-			<input name="gender" type="radio" placeholder="Male" id="gender_m">
+			<input name="gender" type="radio" placeholder="Male" id="gender_m" required>
 		<label for="gender_f">Female*</label>
-			<input name="gender" type="radio" placeholder="Female" id="gender_f">
-		<select id="cars">
-			<option value="">--Please choose an option--</option>
+			<input name="gender" type="radio" placeholder="Female" id="gender_f" required>
+		<select id="cars" required>
+			<option value="" >--Please choose an option--</option>
 			<option value="BMW">BMW</option>
 			<option value="Audi">Audi</option>
 			<option value=" Mercedez"> Mercedez</option>
 		</select>
 	    <label for="age">Age*</label>
-			<input type="text" placeholder="Age" id="age">
+			<input type="text" placeholder="Age" id="age" required>
 		<label for="dob">DOB*</label>
-			<input type="date" placeholder="dob" id="dob">
+			<input type="date" placeholder="dob" id="dob" required>
 		<label for="age">Phone Number*</label>
 			<input type="text" placeholder="xxx-xxx-xxxx" id="tel">
 		<label for="password">Password*</label>
-			<input type="password" placeholder="Password" id="password">
-		<input type="checkbox">
+			<input type="password" placeholder="Password" id="password" required>
+		<input type="checkbox" required>
 		<input type="submit">
 		</form>
 
